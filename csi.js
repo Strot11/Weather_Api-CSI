@@ -8,9 +8,9 @@ async function getWeather() {
         const data = await response.json();
 
         if (response.ok) {
-            // Populate the temperature, humidity, and climate in respective input fields
-            document.getElementById('temperature').value = data.main.temp;  // Temperature in Celsius
-            document.getElementById('humidity').value = data.main.humidity; // Humidity in %
+        
+            document.getElementById('temperature').value = data.main.temp;  //Temperature
+            document.getElementById('humidity').value = data.main.humidity; // Humidity 
             document.getElementById('climate').value = data.weather[0].description; // Weather description
             document.getElementById('wind').value=data.wind.speed;
             butt.style.backgroundColor="Green";
