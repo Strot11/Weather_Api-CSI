@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="csi.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>WEATHERX CLIMATE</h1>
+            <div class="input">
+                <input type="dropdown" id="cityName" placeholder="Give Your City">
+                
+            </div>
+            <div class="result">
+                
+                <div class="temperature">
+                    Temprature of your City: <input type="text" id="temperature">"C
+                </div>
+                <div class="humidity">
+                    Humidity of your City: <input type="text" id="humidity">%
+                </div>
+                <div class="climate">
+                    Climate of your City: <input type="text" id="climate"> 
+                </div>
+                <div class="wind">
+                    Wind speed<input type="text" id="wind"> 
+                </div>
+
+            </div>
+            <button onclick="getWeather()">Submit</button>
+        </div>
+    </div>
+    </body>
+    <script src="csi.js"></script>
+</html>

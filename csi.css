@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    background: url(../../../Downloads/pexels-pixabay-355872.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.container{
+    color: aliceblue;
+    margin-top:10vh;
+    margin-left: 65vh;
+    border: 2px solid black;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width:40vw;
+    height:70vh;
+    border-radius: 15%;
+    
+}
+.container h1{
+    margin-bottom:4vh;
+    margin-top: 4vh;
+}
+.input input{
+    height:10vh;
+    width:70vh;
+    margin-left:5vh;
+    font-size: x-large;
+    border-radius: 1rem;
+    margin-bottom: 12vh;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+button{
+   width: 12rem;
+   height: 4rem;
+   margin-left: 25vh;
+   border-radius: 100rem;
+   margin-top: 4vh;
+}
+.result{
+    display: flex;
+    margin-top: -8vh;
+    flex-direction: column;
+}
+#wind{
+    margin: 1vh;
+}
+#climate{
+    margin: 1vh;
+}
+#temprature{
+    margin: 1vh;
+}
+#humidity{
+    margin: 1vh;
+}
+.result input{
+    border-radius: 5rem;
+    font-size:larger;
+    width: 9rem;
+}
